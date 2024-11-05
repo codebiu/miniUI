@@ -1,6 +1,6 @@
 <template>
   <!-- text-align-last-justify unocss自定义 文字均匀分布 -->
-  <div flex items-center p-3 bg-deep-2 rounded-md text-align-last-justify>
+  <div flex items-center p-1 rounded-md text-align-last-justify>
     <!-- 对齐key -->
     <div class="w-4/9" flex items-center>
       <span w-full h-full v-if="name">{{ name }}</span>
@@ -10,7 +10,7 @@
     <select
       v-model="model"
       @change="changeValueFunc"
-      bg-deep-3
+      bg-deep-2
       class="w-5/9"
       h-full
       rounded-md
@@ -23,7 +23,7 @@
         :key="item.value"
         :label="item.label"
         :value="item.value"
-        bg-deep-4
+        bg-deep-2
       />
     </select>
   </div>
