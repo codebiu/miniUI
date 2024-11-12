@@ -1,14 +1,16 @@
 <template>
-  <div></div>
+  <div>todo</div>
 </template>
  <script setup lang='ts'>
 /**
  * @version      :0.0
  * @author       :itild
- * @File         :LayoutHLMF.vue
- * @Time         :2024/08/14 11:23:02
+ * @File         :todo.vue
+ * @Time         :2024/11/12 16:10:55
  * @Email        :geolifestudy@gmail.com
  * @Copyright    :(C) 2024 itild. All rights reserved.
+ * @parent       :todo
+ * @summary      :简介
  * @description  :标准模板
  * 
  * 1 import 2 type 3 class 4 obj 5 vue
